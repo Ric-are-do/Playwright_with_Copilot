@@ -80,7 +80,31 @@ As long as the server is running, you can now generate Playwright scripts using 
 
 In your project root directory, run the following command:
 
-```bash
+
 npm init playwright@latest
+
+## 🧪 Playwright Setup Questions (for `npm init playwright@latest`)
+
+When you run the `npm init playwright@latest` command, you’ll be prompted with a few setup questions:
+
+1. **Where to put your end-to-end tests?**  
+   _Default:_ `tests`  
+   You can rename this to any folder name you'd like.
+
+2. **Add a GitHub Actions workflow?**  
+   _Optional:_ You can choose `Yes` or `No` depending on whether you want to set up CI/CD via GitHub Actions.
+
+3. **Install Playwright browsers?**  
+   _Choose:_ `Yes`  
+   This installs Chromium, Firefox, and WebKit locally for testing.
+
+4. **Select a language:**  
+   _Choose:_ `TypeScript`  
+   This enables strong typing support and works well with modern editors like VS Code.
+
+5. **Generate tests for components?**  
+   _Optional:_ Typically `No` unless you are doing component-level testing with frameworks like React or Vue.
+
+These questions help scaffold the Playwright project in a way that suits your structure and preferred tech stack.
 
 
