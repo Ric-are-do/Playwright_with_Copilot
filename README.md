@@ -108,3 +108,26 @@ When you run the `npm init playwright@latest` command, you’ll be prompted with
 These questions help scaffold the Playwright project in a way that suits your structure and preferred tech stack.
 
 
+
+---
+
+## 🤖 Example: Using Copilot to Generate UI Tests
+
+Once the MCP server is running and Playwright is installed in your project, you can begin using GitHub Copilot to generate tests.
+
+Here’s an example prompt you can type into Copilot:
+go to this website: https://example.com
+create short UI tests where we click on all the buttons on the site
+
+Inside the tests folder ( where you set your default tests) the new test will be stored in typescript 
+---
+---
+
+## ▶️ Running Tests in UI Mode
+
+To run your Playwright tests in UI mode (headed mode with the Inspector), use the following command:
+
+```bash
+npx playwright test --ui
+
+
